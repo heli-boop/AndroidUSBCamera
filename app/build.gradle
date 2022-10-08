@@ -66,12 +66,12 @@ dependencies {
     implementation "com.tencent.bugly:nativecrashreport:$bugly_native_version"
 
 //    implementation project(':libutils')
-    implementation project(path: ':libutils')
+//    implementation project(path: ':libutils')
 
 
     // For debug online
-    implementation project(':libausbc')
+//    implementation project(':libausbc')
 
     // demo
-//    implementation 'com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.2.8'
+    implementation 'com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.2.8'
 }
